@@ -1,0 +1,18 @@
+#Today, at 6:00 AM , I watch the live video of Day 01 for Sept,2026 batch.
+#In the Noon, I have created local project on my machine also I created new repo on github followed by name as Seopt2026_Pradepp_Pathnex
+
+#In the evening,I have attended the class and on camera I give my presence and talk about what exactly we learn in the morning class as describe below :
+
+I start  basically learned about the DevOps according to  RoadMap:
+1. Linux :
+         -> Basic coomands, File Systems, Permissions, Processes.
+         -> Users & Groups : useradd/usermod, groups, sudoers.
+         -> SSH keys, hardening, commomn issues.
+
+
+After that in the Evening I saw the video as described in below link :
+GitHub to Ec2 in 20 minutes 
+  # https://www.youtube.com/watch?v=yzhACp-7T54
+
+
+           

@@ -1,68 +1,27 @@
-#Day 01- Basics
-## Ansible Task - Install Nginx on Pathnex Server
+# Day 01 — Basics
 
-I  Rewrite the below code by typing in terminal from VS code terminal 
+## 🔹 Ansible Task — Install Nginx on Pathnex Server
 
--------
+Rewrite this YAML manually:
 
+```yaml
 - name: Install Nginx on Pathnex server
   hosts: all
   become: yes
- 
-  tasks: 
-    - name: Install Nginx
+
+  tasks:
+    - name: Install nginx
       yum:
         name: nginx
         state: present
 
-  
 
-## Terraform Task - Create EC2 (c5.xlarge)
-
-   provider "aws" {
-         region= "us-east-1"
-      }
-
-    resources "aws_instances" "pathnexEC2" {
-       ami              = "ami-0abcd12345andjj1234"
-       instance_type   = "c5.xlarge"
-
-     tags = {
-       Name = "Pathnex-EC2"
-     }
-  }
-
-## Kubernetes Task - Create Nginx Pod
-
-  apiVersion: v1
-  kind: Pod
-  metadata:
-      name: pathnex-pod
-  spec:
-     containers:
-      - name: web
-        image: nginx:latest
-        ports:
-          - containerPort: 80
+🔹 Docker
+# Docker Installation & First Container
+docker --version
+docker run ubuntu echo "Hello Pathnex"
 
 
-##  Shell Script - Print date & Hostname
-#!/bin/bash
-echo "Date: $(date)"
-echo "Hostname: $(hostname)"
-
-#Git Integration 
-## Jenkins Pipeline - Checkout Git
-You will learn how to **checkout a Git repository** and list files.
-
-  stages:
-    - checkout
-   
-  git-checkout:     
-     stage: checkout
-     script:
-       - git clone https://github.com/Pathnex/Sample-java-app.git
-       - cd sample-java-app
-       - ls -la
-
-
+# Docker File
+FROM ubuntu:22.04
+CMD ["echo", "Hello Pathnex"]

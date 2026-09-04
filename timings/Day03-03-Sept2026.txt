@@ -1,0 +1,19 @@
+3 Hrs for video watch on Linux where I study about following things :
+
+   ---> Files and Folders permissions 
+   ---> chmod : chnage permissions of files and folder like 765
+
+          rwx            -rwx        -rwx             r   w   x          overall value
+                        
+          user/owner     Group       Other            4   2   1          4+2+1=7 means , that particular user or group or other have the permission of read+write_execute/run.
+
+
+         if some file have permistion like 641 i.e  user have permission of read(4) + write(2) = 6 for user/owner   rw-
+                                                    Group have permission of read(4)+0+0       = 4 only read        r--
+                                                    Others have permission of 0+0+ execution(1)=1 only execute      --x
+
+
+          So, 641 ---->  rw-r----x
+
+2 hrs practice on github coding part
+30 minutes for evening class

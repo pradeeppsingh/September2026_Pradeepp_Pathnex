@@ -1,0 +1,4 @@
+#30 min Introduction video
+# 4 hrs previous video wath for Ansible
+# 3 hrs today Ansible Class
+# 30 minute github push
